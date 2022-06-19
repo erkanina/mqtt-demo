@@ -4,10 +4,10 @@
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
-- [node.js](https://nodejs.org/en/download/)
+- [Node.js](https://nodejs.org/en/download/)
 - [Mosquitto](http://www.steves-internet-guide.com/install-mosquitto-broker/)
 
-1. In command line; go to the installation folder of mosquitto eg "c:/Program Files/Mosquitto" and type
+1. In command line go to the installation directory of mosquitto eg "c:/Program Files/Mosquitto" and run mosquitto in verbose mode so that you can see console messages.
 
    **_mosquitto - v_**
 
