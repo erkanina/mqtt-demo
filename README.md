@@ -26,3 +26,47 @@ This site was built using [GitHub Pages](https://pages.github.com/).
    > Node subscriber.js
 
    ![Screenshot](screenshot.jpg)
+
+   ## publisher
+
+```
+const mqtt = require("mqtt");
+const client = mqtt.connect('mqtt://localhost');
+
+var counter = 0;
+
+function publishData() {
+    client.publish(
+        "mqtt/myCounter",
+        JSON.stringify(`Timer:${counter}`)
+      );
+
+      console.log("Published : " + counter);
+
+      counter++;
+}
+
+setInterval(publishData, 3000);
+```
+
+      ## subscriber
+
+```
+const mqtt = require('mqtt')
+const client = mqtt.connect('mqtt://localhost')
+
+client.on('connect', () => {
+  console.log('Connected to broker');
+
+  client.subscribe('mqtt/myCounter');
+  console.log('Subscribed to \"mqtt/myCounter\"');
+});
+
+client.on('message', (topic, payload) => {
+    switch(topic){
+        case 'mqtt/myCounter':
+            console.log('Rx message : ' + payload.toString());
+        break;
+    }
+});
+```
