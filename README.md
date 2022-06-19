@@ -2,12 +2,10 @@
 
 ## Requirements
 
-This site was built using [GitHub Pages](https://pages.github.com/).
+- [Node](https://nodejs.org/en/download/) JavaScript runtime environment
+- [Mosquitto](http://www.steves-internet-guide.com/install-mosquitto-broker/) mqtt broker
 
-- [Node](https://nodejs.org/en/download/)
-- [Mosquitto](http://www.steves-internet-guide.com/install-mosquitto-broker/)
-
-1. In command line go to the installation directory of mosquitto eg "C:/Program Files/Mosquitto" and run mosquitto in verbose mode so that you can see console messages.
+1. In command line go to the installation directory of mosquitto eg _"C:/Program Files/Mosquitto"_ and run mosquitto in verbose mode so that you can see console messages.
 
 ```
   mosquitto -v
@@ -25,7 +23,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
   npm install mqtt
 ```
 
-4. You will need two console windows, one for publisher and one for subscriber. Run both scripts as below;
+4. You will need two console windows, one for **publisher** and one for **subscriber**. Run both scripts as below;
 
 ```
   Node publisher.js
