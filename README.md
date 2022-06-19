@@ -9,19 +9,20 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 1. In command line go to the installation directory of mosquitto eg "C:/Program Files/Mosquitto" and run mosquitto in verbose mode so that you can see console messages.
 
-   **_mosquitto - v_**
+   > mosquitto -v
 
 2. Go tothe project directory and clone the repository
-   **_git clone https://github.com/erkanina/mqtt-demo.git_**
+
+   > git clone https://github.com/erkanina/mqtt-demo.git
 
 3. Install mqtt package
 
-   **_npm install mqtt_**
+   > npm install mqtt
 
 4. You will need two console windows, one for publisher and one for subscriber. Run both scripts as below;
 
-   **_Node publisher.js_**
+   > Node publisher.js
 
-   **_Node subscriber.js_**
+   > Node subscriber.js
 
    ![Screenshot](screenshot.jpg)
