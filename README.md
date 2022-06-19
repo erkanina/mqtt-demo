@@ -9,7 +9,9 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 1. In command line go to the installation directory of mosquitto eg "C:/Program Files/Mosquitto" and run mosquitto in verbose mode so that you can see console messages.
 
-   > mosquitto -v
+```
+  mosquitto -v
+```
 
 2. Go tothe project directory and clone the repository
 
