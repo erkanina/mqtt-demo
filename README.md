@@ -11,13 +11,11 @@ Requirements
 
 mosquitto - v
 
-2. git clone
-
-3. Go tothe project directory and clone the repository
+2. Go tothe project directory and clone the repository
 
 git clone https://github.com/erkanina/mqtt-demo.git
 
-4. Install mqtt package
+3. Install mqtt package
 
 npm install mqtt
 
