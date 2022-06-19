@@ -24,4 +24,5 @@ npm install mqtt
 4. You will need two console windows, one for publisher and one for subscriber. Run both scripts as below;
 
 Node publisher.js
+
 Node subscriber.js
