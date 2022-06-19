@@ -57,7 +57,7 @@ function publishData() {
 setInterval(publishData, 3000);
 ```
 
-      ## subscriber
+## subscriber
 
 ```JavaScript
 const mqtt = require('mqtt')
