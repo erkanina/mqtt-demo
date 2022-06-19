@@ -2,10 +2,10 @@
 
 ## Requirements
 
-- [Node](https://nodejs.org/en/download/) JavaScript runtime environment
-- [Mosquitto](http://www.steves-internet-guide.com/install-mosquitto-broker/) mqtt broker
+- [Node](https://nodejs.org/en/download/) JavaScript Runtime Environment
+- [Mosquitto](http://www.steves-internet-guide.com/install-mosquitto-broker/) MQTT Broker
 
-1. In command line go to the installation directory of mosquitto eg _"C:/Program Files/Mosquitto"_ and run mosquitto in verbose mode so that you can see console messages.
+1. In command line go to the installation directory of mosquitto eg **_"C:/Program Files/Mosquitto"_** and run mosquitto in verbose mode so that you can see console messages.
 
 ```
   mosquitto -v
